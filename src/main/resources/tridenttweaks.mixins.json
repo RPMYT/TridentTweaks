@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "prismatic.tridenttweaks.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ImpalingMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

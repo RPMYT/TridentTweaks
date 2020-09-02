@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "tridenttweaks",
+  "version": "${version}",
+  "name": "Trident Tweaks",
+  "description": "Trident Tweaks does a couple things, the first being it changes Impaling to do extra damage to *all* mobs (and not just aquatic-type ones), and secondly allows sword enchantments such as Looting to be applied to tridents.",
+  "authors": [
+    "PrismaticYT"
+  ],
+  "contact": {
+    "repo": "RPMYT/TridentTweaks"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/tridenttweaks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "prismatic.tridenttweaks.TridentTweaks"
+    ]
+  },
+  "mixins": [
+    "tridenttweaks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.2+build.206",
+    "fabric": "*",
+    "minecraft": "1.16.2"
+  }
+}
